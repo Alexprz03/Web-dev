@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "start": "parcel *.html",
+    "build": "parcel build *.html",
     "predeploy": "npm run build",
     "deploy": "surge dist site-de-ouf.surge.sh",
     "lint": "eslint ./**/*.js"
